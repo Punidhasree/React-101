@@ -1,7 +1,12 @@
-export default function MyButton(){
+import {useState} from 'react'
+export default function MyButton({count, setCount}){
+    
+    function handleMe() {
+        setCount (count+1);
+    }
     return (
-        <button>
-            tick tick!!
+        <button onClick={handleMe}>
+            "Click me  {count} "
         </button>
     )
 }

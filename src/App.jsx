@@ -5,9 +5,14 @@ import './App.css'
 import MyButton from './components/Mybutton'
 
 function App() {
+  const [count, setCount] =useState(0)
+
   return (
     <div>
-      <MyButton />
+      <MyButton count = {count} setCount = {setCount}/>
+      <MyButton count = {count} setCount = {setCount}/>      
+      
+
     </div>
   )
 }
