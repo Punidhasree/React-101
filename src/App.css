@@ -1,0 +1,10 @@
+.square {
+  width: 33px;
+  height: 33px;
+  /*display: inline-block;
+  border: 1px solid #000; /* optional for visibility */
+  /*box-sizing: border-box; */
+}
+.board-row {
+  display: flex;
+}
