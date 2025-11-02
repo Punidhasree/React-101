@@ -6,13 +6,14 @@ import MyButton from './components/Mybutton'
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import Board from './components/tictoe'
+import Use from './components/static'
 
 function App() {
 
 
   return (
     <div>
-      <Board />
+      <Use />
 
     </div>
   )
